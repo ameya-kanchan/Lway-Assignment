@@ -31,13 +31,14 @@ Make sure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/ameya-kanchan/Healthcare-API.git
-
+```
 
 ### 2. Backend Setup 
 
 ```bash
 cd healthcare-services-api
 npm install
+```
 
 ### 3. Start Application
 
@@ -51,6 +52,7 @@ MongoDB connected
 ```bash
 cd frontend\healthcare-frontend
 npm install
+```
 
 ### 5. Start Angular Application
 
