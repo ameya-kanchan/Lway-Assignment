@@ -1,6 +1,6 @@
 # Healthcare Services API
 
-This is a simple API for managing healthcare services using **Node.js**, **Express**, and **MongoDB**. The API allows users to create, read, update, and delete (CRUD) healthcare services.
+This is a simple MEAN stack application for managing healthcare services using **Angular**, **Node.js**, **Express**, and **MongoDB**. The application allows users to create, read, update, and delete (CRUD) healthcare services.
 
 ## Features
 
@@ -11,6 +11,7 @@ This is a simple API for managing healthcare services using **Node.js**, **Expre
 
 ## Technologies Used
 
+- **Angular** for frontend
 - **Node.js** with Express for the backend
 - **MongoDB** for the database (using Mongoose as the ORM)
 - **Postman** for API testing
@@ -19,6 +20,7 @@ This is a simple API for managing healthcare services using **Node.js**, **Expre
 
 Make sure you have the following installed on your system:
 
+- [Angular] (v17+)
 - [Node.js](https://nodejs.org/) (v14+)
 - [MongoDB](https://www.mongodb.com/) (running locally or using MongoDB Atlas)
 - [Postman](https://www.postman.com/) (optional, for testing the API)
@@ -29,11 +31,12 @@ Make sure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/ameya-kanchan/Healthcare-API.git
-cd healthcare-services-api
 
-### 2. Install Dependencies 
+
+### 2. Backend Setup 
 
 ```bash
+cd healthcare-services-api
 npm install
 
 ### 3. Start Application
@@ -42,6 +45,17 @@ node index.js
 The server should start on http://localhost:3000 and you should see the message:
 Server running on http://localhost:3000
 MongoDB connected
+
+### 4. Frontend Setup
+
+```bash
+cd frontend\healthcare-frontend
+npm install
+
+### 5. Start Angular Application
+
+ng serve
+Local:   http://localhost:4200/
 
 ## API Endpoints
 
