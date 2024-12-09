@@ -33,6 +33,7 @@ cd healthcare-services-api
 
 ### 2. Install Dependencies 
 
+```bash
 npm install
 
 ### 3. Start Application
