@@ -20,7 +20,7 @@ This is a simple MEAN stack application for managing healthcare services using *
 
 Make sure you have the following installed on your system:
 
-- [Angular] (v17+)
+- [Angular](https://angularjs.org/) (v17+)
 - [Node.js](https://nodejs.org/) (v14+)
 - [MongoDB](https://www.mongodb.com/) (running locally or using MongoDB Atlas)
 - [Postman](https://www.postman.com/) (optional, for testing the API)
