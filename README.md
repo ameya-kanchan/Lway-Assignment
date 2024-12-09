@@ -42,7 +42,9 @@ npm install
 
 ### 3. Start Application
 
+```bash
 node index.js
+```
 The server should start on http://localhost:3000 and you should see the message:
 Server running on http://localhost:3000
 MongoDB connected
@@ -56,7 +58,9 @@ npm install
 
 ### 5. Start Angular Application
 
+```bash
 ng serve
+```
 Local:   http://localhost:4200/
 
 ## API Endpoints
